@@ -148,7 +148,7 @@ export async function updateEmployees(req, res) {
       await empleado.save();
     }
 
-    // Devuelve solo las propiedades necesarias del objeto actualizado
+    // Devuelve solo las propiedades necesarias del objeto actualizado 123456
     const empleadoActualizado = {
       id: empleado.id, 
       cedula: empleado.cedula,
